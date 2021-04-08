@@ -41,6 +41,7 @@ android {
 
 dependencies {
 
+  implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
   def roomVersion = "2.2.6"
   def retrofitVersion = "2.9.0"
   def lifecycleVersion = "2.2.0"
@@ -81,4 +82,7 @@ dependencies {
 
   //Runtime Permission
   implementation 'com.karumi:dexter:6.2.2'
+
+  //Custom Logger
+  implementation 'com.jakewharton.timber:timber:4.7.1'
 }
